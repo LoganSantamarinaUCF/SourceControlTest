@@ -690,6 +690,12 @@
 		)
 	)
 	(junction
+		(at 152.4 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d500bc7-8ffd-4201-b6bb-fa882f917aab")
+	)
+	(junction
 		(at 128.27 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -700,6 +706,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3bb2ed7-f18e-4f65-9977-1706459d5704")
+	)
+	(junction
+		(at 152.4 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6d6fc99-146a-4cbb-92fe-318be314bd57")
 	)
 	(wire
 		(pts
@@ -713,7 +725,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 88.9) (xy 152.4 91.44)
+			(xy 152.4 100.33) (xy 158.75 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29830f6a-f684-4164-86a1-4df4dd3ada41")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 152.4 90.17)
 		)
 		(stroke
 			(width 0)
@@ -733,6 +755,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 100.33) (xy 152.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f296f55-07e6-4bc5-be84-99d48f6a9e63")
+	)
+	(wire
+		(pts
 			(xy 114.3 88.9) (xy 128.27 88.9)
 		)
 		(stroke
@@ -740,6 +772,16 @@
 			(type default)
 		)
 		(uuid "83c21c4a-024e-46b1-a05f-e0790c9beed4")
+	)
+	(wire
+		(pts
+			(xy 152.4 90.17) (xy 152.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "844c6ea4-fc9e-4be7-87ce-4ae65eda25b7")
 	)
 	(wire
 		(pts
@@ -773,6 +815,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 90.17) (xy 158.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a429277b-3f2d-4dea-8d23-81c218e07739")
+	)
+	(wire
+		(pts
 			(xy 114.3 99.06) (xy 114.3 101.6)
 		)
 		(stroke
@@ -803,7 +855,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 101.6) (xy 152.4 99.06)
+			(xy 152.4 101.6) (xy 152.4 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1243,6 +1295,81 @@
 				(path "/5d981c2c-ab3d-4850-ba6d-abf03e2cd683"
 					(reference "Vs")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 88.9)
+		(size 20.32 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5dd040a6-456a-4ef9-ba2e-31c5e24a4ff2")
+		(property "Sheetname" "SecondDivider"
+			(at 158.496 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "seconddivider.kicad_sch"
+			(at 158.496 87.122 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Division_In" input
+			(at 158.75 90.17 180)
+			(uuid "18d7baea-eeca-4c57-8915-8ed092a18057")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 158.75 100.33 180)
+			(uuid "de30aa2e-5986-4331-be01-180a2237932e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Voltage_Output" output
+			(at 179.07 95.25 0)
+			(uuid "e8c1769f-6982-4a22-a07c-074253f21f49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SourceControlTest"
+				(path "/5d981c2c-ab3d-4850-ba6d-abf03e2cd683"
+					(page "2")
 				)
 			)
 		)
