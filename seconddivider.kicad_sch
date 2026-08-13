@@ -425,7 +425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 150.114 96.774 90)
 			(hide yes)
 			(show_name no)
@@ -507,7 +507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 159.766 103.124 90)
 			(hide yes)
 			(show_name no)
@@ -541,10 +541,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4734db47-55bb-48a5-b403-1615ba4c30a2")
+			(uuid "4734db47-55bb-48a5-b403-1615ba4c30a3")
 		)
 		(pin "1"
-			(uuid "49527267-4399-4ad7-a7ca-d15dd5a36d7d")
+			(uuid "49527267-4399-4ad7-a7ca-d15dd5a36d7e")
 		)
 		(instances
 			(project "SourceControlTest"
