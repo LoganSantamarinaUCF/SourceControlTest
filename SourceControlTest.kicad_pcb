@@ -90,7 +90,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0bbb73e2-cb1d-4a7f-9cfe-b92a5b60ad20")
-		(at 140.63 81.5)
+		(at 96.46 74.5)
 		(descr "Resistor, Axial_DIN0309 series, Axial, Vertical, pin pitch=2.54mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0309 series Axial Vertical pin pitch 2.54mm 0.5W = 1/2W length 9mm diameter 3.2mm")
 		(property "Reference" "R1"
@@ -251,7 +251,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2a1d1be7-86b0-4591-bc34-97222776b050")
-		(at 158.63 103)
+		(at 112.13 74.5)
 		(descr "Resistor, Axial_DIN0309 series, Axial, Vertical, pin pitch=2.54mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0309 series Axial Vertical pin pitch 2.54mm 0.5W = 1/2W length 9mm diameter 3.2mm")
 		(property "Reference" "R4"
@@ -1484,11 +1484,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "cc7ad354-b489-4e84-92a0-312a12ef65fe")
-		(at 159.63 90)
+		(at 120 79.96 -90)
 		(descr "Resistor, Axial_DIN0309 series, Axial, Vertical, pin pitch=2.54mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0309 series Axial Vertical pin pitch 2.54mm 0.5W = 1/2W length 9mm diameter 3.2mm")
 		(property "Reference" "R3"
-			(at 1.27 -2.72 0)
+			(at 1.27 -2.72 90)
 			(layer "F.SilkS")
 			(uuid "498f909d-0280-4c67-b3bd-5517285931e7")
 			(effects
@@ -1499,7 +1499,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 1.27 2.72 0)
+			(at 1.27 2.72 90)
 			(layer "F.Fab")
 			(uuid "a1e5c863-e3be-4c7d-bc25-ae184a97ac92")
 			(effects
@@ -1510,7 +1510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "497f0d9e-23a7-4bfe-b33b-3e14fd2c3870")
@@ -1521,7 +1521,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2ec832d8-cbb3-448c-9862-68e06be5b39a")
@@ -1532,7 +1532,7 @@
 			)
 		)
 		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "15651e03-84d2-4e97-aaf8-9890b2547b83")
@@ -1599,7 +1599,7 @@
 			(uuid "09f69cdf-46e0-4b6a-9642-093791885986")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -2.72 0)
+			(at 1.27 -2.72 90)
 			(layer "F.Fab")
 			(uuid "4884d855-1948-4d0d-a8f4-379109cd9af3")
 			(effects
@@ -1610,7 +1610,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -1620,7 +1620,7 @@
 			(uuid "6b7a234c-c753-4de0-8280-f7b85ba75058")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0)
+			(at 2.54 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -1654,8 +1654,8 @@
 		(uuid "86dab8bf-db0b-470c-a763-3f124f3b3ac0")
 	)
 	(gr_rect
-		(start 182 82.5)
-		(end 190 97)
+		(start 75.5 70)
+		(end 132.5 91)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -1664,6 +1664,22 @@
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "0109fcef-e3e5-44a7-952a-961080767ace")
+	)
+	(segment
+		(start 106 82.67)
+		(end 104 80.67)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "27a376a3-0def-4c56-a706-471c6bfc5b57")
+	)
+	(segment
+		(start 104 80.67)
+		(end 104 80.5)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "a0134e03-ea7c-4bf7-8157-cc7c501001e2")
 	)
 	(embedded_fonts no)
 )
